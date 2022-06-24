@@ -23,5 +23,6 @@ if (isNaN(num1) || isNaN(num2)) {
         default:
             alert('Invalid operator')
     }
-    document.write(`${num1} ${operator} ${num2} = ${result}`)
+    // document.write(`${num1} ${operator} ${num2} = ${result}`)
+    alert(`${num1} ${operator} ${num2} = ${result}`)
 }
